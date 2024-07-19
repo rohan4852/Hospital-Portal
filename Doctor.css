@@ -1,0 +1,84 @@
+@charset "UTF-8";
+Body {
+    Font-family: ‘Arial’, sans-serif;
+    Background-color: #f0f8ff;
+    Margin: 0;
+    Padding: 0;
+}
+
+.container {
+    Max-width: 1200px;
+    Margin: 0 auto;
+    Padding: 20px;
+}
+Header {
+    Background-color: #0073e6;
+    Color: white;
+    Padding: 20px 0;
+    Text-align: center;
+}
+
+Header h1 {
+    Margin: 0;
+}
+
+Form {
+    Background-color: white;
+    Padding: 20px;
+    Border-radius: 8px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+Form input, form select, form textarea {
+    Width: 100%;
+    Padding: 10px;
+    Margin: 10px 0;
+    Border-radius: 4px;
+    Border: 1px solid #ccc;
+}
+
+Form button {
+    Background-color: #0073e6;
+    Color: white;
+    Padding: 10px 20px;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Form button:hover {
+    Background-color: #005bb5;
+}
+
+.table-container {
+    Margin-top: 20px;
+}
+
+Table {
+    Width: 100%;
+    Border-collapse: collapse;
+    Margin: 20px 0;
+}
+
+Table, th, td {
+    Border: 1px solid #ddd;
+}
+
+Th, td {
+    Padding: 12px;
+    Text-align: left;
+}
+
+Th {
+    Background-color: #0073e6;
+    Color: white;
+}
+
+Tr:nth-child(even) {
+    Background-color: #f2f2f2;
+}
+
+Tr:hover {
+    Background-color: #ddd;
+}
+

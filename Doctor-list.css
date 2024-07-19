@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.table-container {
+    Margin-top: 50px;
+}
+
+.search-bar {
+    Margin: 20px 0;
+    Display: flex;
+    Justify-content: space-between;
+}
+
+.search-bar input {
+    Width: 80%;
+    Padding: 10px;
+    Border-radius: 4px;
+    Border: 1px solid #ccc;
+}
+
+.search-bar button {
+    Padding: 10px 20px;
+    Background-color: #0073e6;
+    Color: white;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+.search-bar button:hover {
+    Background-color: #005bb5;
+}

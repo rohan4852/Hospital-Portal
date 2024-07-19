@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #800000;;
+}
+hr{
+	color :#800000;
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #800000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: rgb(232, 0, 0);
+}
